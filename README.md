@@ -1,16 +1,43 @@
-# resturant_app
+# Resturant App Home Screen UI - Flutter
 
-A Flutter project about Resturant App.
+This project is a practice Flutter application that showcases the UI of a fast-food ordering app. It’s designed to help me learn and improve my skills in Flutter UI development by implementing various widgets and layouts.  
 
-## Getting Started
+# Features  
 
-This project is a starting point for a Flutter application.
+**Clean and Modern UI**: An engaging interface emphasizing simplicity and usability.
+**Horizontal Scrollable Categories**: Displays a list of food categories that users can scroll horizontally.
+**Promotional Banner**: Highlights discounts and promotions with a call-to-action button.
+**Recommended Food List**: A list of recommended food items with ratings, descriptions, and prices.
+**Bottom Navigation Bar**: Provides easy access to different sections like Home, Orders, Favorites, Notifications, and Profile.  
 
-A few resources to get you started if this is your first Flutter project:
+# Getting Started  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Prerequisites**  
+Flutter SDK
+Compatible IDE (e.g., VS Code, Android Studio)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Installation  
+
+1. Clone the repository:  
+```git clone https://github.com/RavinduChamodWickramage/RestaurantApp-Flutter.git```  
+
+2. Navigate to the project directory:  
+```cd RestaurantApp-Flutter```  
+
+3. Install required dependencies:  
+```flutter pub get```  
+
+4. Run the app:  
+```flutter run```  
+
+# Assets  
+Add your images to the assets/images/ folder.
+Include these assets in pubspec.yaml:
+```assets:
+  - assets/images/burger.png
+  - assets/images/cheeseburger.png
+  - assets/images/pizza.png
+```  
+
+# Learning Outcomes  
+This project is created to practice Flutter UI design. It includes creating reusable widgets, managing layouts, and implementing responsive design.
